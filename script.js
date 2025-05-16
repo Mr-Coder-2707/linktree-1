@@ -130,16 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
             `;
         });
     }
-    
-    // Add UTM parameters to links
-    document.querySelectorAll('[data-utm]').forEach(link => {
-        if (link.href && link.href !== '#') {
-            const utm = link.getAttribute('data-utm');
-            const separator = link.href.includes('?') ? '&' : '?';
-            link.href = `${link.href}${separator}utm_source=linkhub&utm_medium=profile&utm_campaign=${utm}`;
-        }
-    });
-    
+      // UTM tracking has been removed
     // Lazy load images for performance
     const lazyImages = document.querySelectorAll('img.lazy');
     if ('IntersectionObserver' in window) {
