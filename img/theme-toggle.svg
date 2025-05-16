@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <style>
+    .day-night {
+      animation: day-night-animation 10s linear infinite;
+    }
+    @keyframes day-night-animation {
+      0%, 100% { transform: rotate(0deg); }
+      50% { transform: rotate(180deg); }
+    }
+    .sun {
+      fill: #FFC107;
+    }
+    .moon {
+      fill: #5D9CEC;
+    }
+  </style>
+  <g class="day-night">
+    <circle class="sun" cx="12" cy="12" r="5" />
+    <path class="moon" d="M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36c-1.23,1.48-3.1,2.43-5.2,2.43 c-3.7,0-6.7-3-6.7-6.7c0-2.1,0.95-3.97,2.43-5.2C12.92,3.04,12.46,3,12,3L12,3z" opacity="0" />
+  </g>
+</svg>
