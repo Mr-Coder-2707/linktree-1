@@ -948,6 +948,46 @@ header {
     font-size: 1rem;
   }
 }
+@media (min-width: 481px){ 
+  #language-switch {
+    margin-left: -240,5px;
+  }
+  .dropdown-menu{
+    margin-left: -240,5px;
+
+}
+
+}
+@media(min-width: 720px){
+  #language-switch {
+    margin-left: -350px;
+  }
+  .dropdown-menu{
+    margin-left: -350px;
+  }
+}
+@media (min-width: 600px) {
+  #language-switch {
+    margin-left: -300px;
+  }
+  .dropdown-menu{
+    margin-left: -300px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  #language-switch {
+    margin-left: -512px;
+  }
+  .dropdown-menu{
+    margin-left: -383.5px;
+
+  }
+
+}
+
+
 
 /* Link Analytics */
 .click-stats {
@@ -1188,6 +1228,11 @@ footer p {
   gap: 8px;
   margin-left: -700px;
 }
+.dropdown-menu{
+    margin-left: -700px;
+
+}
+
 
 #language-switch:hover {
   background: rgba(255, 255, 255, 0.95);
@@ -1614,7 +1659,48 @@ body.dark-mode .placeholder-embed {
     width: 45px;
     height: 45px;
   }
+  .dropdown-menu{
+    margin-left: -200px;
+
 }
+#language-switch {
+    margin-left: -200px;
+  }
+
+}
+@media (max-width: 1020px) {
+  #language-switch {
+    margin-left: -490px;
+  }
+  .dropdown-menu{
+    margin-left: -490px;
+
+}
+
+}
+@media (max-width: 800px) {
+  #language-switch {
+    margin-left: -400px;
+  }
+  .dropdown-menu{
+    margin-left: -400px;
+
+}
+
+}
+@media (max-width: 500px) {
+  #language-switch {
+    margin-left: -250px;
+  }
+  .dropdown-menu{
+    margin-left: -250px;
+
+}
+
+}
+
+
+
 
 @media (max-width: 480px) {
   .profile-container {
