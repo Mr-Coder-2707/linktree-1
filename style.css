@@ -1615,10 +1615,100 @@ body.dark-mode .placeholder-embed {
 
 }
 
+@media (max-width: 512px){
+    #language-switch {
+    margin-left: -256px;
+  }
+  .dropdown-menu{
+    margin-left: -256px;
+
+}
 }
 
 
 
+}
+@media (max-width: 715px){
+    #language-switch {
+    margin-left: -357.5px;
+  }
+  .dropdown-menu{
+    margin-left: -357.5px;
+
+}
+}
+
+@media (max-width: 750px ){
+    #language-switch {
+    margin-left: -375px;
+  }
+  .dropdown-menu{
+    margin-left: -375px;
+
+}
+
+
+}
+@media (max-width: 914px){
+    #language-switch {
+    margin-left: -457px;
+  }
+  .dropdown-menu{
+    margin-left: -457px;
+
+}
+}
+
+@media (max-width: 1024px){
+    #language-switch {
+    margin-left: -512px;
+  }
+  .dropdown-menu{
+    margin-left: -512px;
+
+}
+}
+
+
+
+@media (max-width: 896px){
+    #language-switch {
+    margin-left: -434.5px;
+  }
+  .dropdown-menu{
+    margin-left: -434.5px;
+
+}
+}
+@media (max-width: 932px){
+    #language-switch {
+    margin-left: -466px;
+  }
+  .dropdown-menu{
+    margin-left: -466px;
+
+}
+}
+
+@media (max-width: 740px){
+    #language-switch {
+    margin-left: -370px;
+  }
+  .dropdown-menu{
+    margin-left: -370px;
+
+}
+}
+
+@media (max-width: 768px){
+    #language-switch {
+    margin-left: -384px;
+  }
+  .dropdown-menu{
+    margin-left: -384px;
+
+}
+}
 
 @media (max-width: 480px) {
   .profile-container {
@@ -1709,4 +1799,3 @@ button:focus, a:focus {
 
 
 
-<a href="https://Mr-Coder-2707.github.io/MEMORY-GAME-o.2/
