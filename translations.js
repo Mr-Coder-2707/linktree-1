@@ -2,7 +2,7 @@
 const translations = {
     en: {
         // Header
-        bio: "Discover my work and see where you can find me ✨",
+        bio: "  I’m Mahmoud -Sabry-Elkhwass —> a passionate Full Stack Developer and tech creator skilled in building intelligent systems, user-friendly interfaces, and powerful web & mobile applications.✨",
         verified: "Verified Profile",
         
         // Sections
@@ -98,7 +98,7 @@ const translations = {
     },
     fr: {
         // Header
-        bio: "Découvrez mon travail et où me trouver ✨",
+        bio: "Je suis Mahmoud Elkhwass — un développeur Full Stack passionné et créateur technologique, spécialisé dans la création de systèmes intelligents, d'interfaces conviviales et d'applications web et mobiles performantes.✨",
         verified: "Profil vérifié",
         
         // Sections
